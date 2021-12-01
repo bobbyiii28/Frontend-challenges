@@ -1,0 +1,207 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    
+}
+
+ .attribution a { 
+     color: hsl(228, 45%, 44%);
+ }
+
+ body{
+    background-color: #15263F;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ h1{
+     font-weight: 600;
+     color: #FFF;
+     font-size: 22px;
+ }
+
+
+ .equilibrium{
+     font-weight: 300;
+     color: #8BACD9;
+     font-size: 18px;
+
+ }
+
+ .container{
+     width: 350px;
+     height: 596px;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     padding: 15px;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     left: 536px;
+     top: 137px;
+
+ }
+
+ .equilibrium-pic{
+     width: 302px;
+     height: 302px;
+     border-radius: 8px; 
+     background-color: #15263F;
+     
+
+ }
+     
+ 
+ .eth-left{
+     float: left;
+     color:#00FFF8;
+     font-size: 16px;
+
+     
+ }
+ .clock-right{
+     float: right;
+     text-align: right;
+     color: #8BACD9;
+     font-size: 16px;
+
+     
+ }
+
+ .avi{
+     width: 33px;
+     height: 33px;
+ }
+ .eth-icon{
+     width: 11px;
+     height: 18px;
+ }
+ .clock-icon{
+     width: 16px;
+     height: 16px;
+ }
+
+ .creation{
+     display: inline;
+     font-size: 16px;
+ }
+
+.create{
+    color: #8BACD9;
+
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2E405A;
+    margin: 1em 0;
+    
+}
+
+.equilibrium-pic:hover{
+    border-color: #00FFF8;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #00FFF8;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+
+
+}
+p:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.jules:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+    
+@media(min-width: 320px){
+    .container{
+        max-width: 327px;
+        max-height: 543px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        left: 24px;
+        top: 62px;
+
+
+}
+
+.equilibrium-pic{
+    width: 278px;
+    height: 278px;
+    border-radius: 8px; 
+    background-color: #15263F;
+    top:24px;
+    left:24px;
+
+}
+h1{
+    font-weight: 600;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.equilibrium{
+    font-weight: 300;
+    color: #8BACD9;
+    font-size: 18px;
+
+}
+
+.eth-left{
+    float: left;
+    color:#00FFF8;
+    font-size: 15px;
+    font-weight: 600;
+
+    
+}
+
+.eth-icon{
+    width: 11px;
+    height: 12.43px;
+}
+
+.clock-right{
+    float: right;
+    text-align: right;
+    color: #8BACD9;
+    font-size: 15px;
+    font-weight:400;
+
+    
+}
+
+.clock-icon{
+    width: 16px;
+    height: 16px;
+    top: 1.67px;
+}
+
+.avi{
+    width: 33px;
+    height: 33px;
+}
+
+.creation{
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+}
